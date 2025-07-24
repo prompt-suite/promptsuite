@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PromptSuite.ai – Smarter Prompt Generation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background-color: #4f46e5;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .prompt-box {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .prompt-box textarea {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+      min-height: 100px;
+    }
+    button {
+      background: #4f46e5;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .plans {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .plan {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    }
+    .plan h3 {
+      margin-top: 0;
+      color: #4f46e5;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+    .ads-box {
+      background: #fcefc7;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PromptSuite.ai</h1>
+    <p>Your intelligent prompt generation toolkit</p>
+  </header>  <div class="container">
+    <div class="prompt-box">
+      <h2>Generate a Prompt</h2>
+      <textarea placeholder="Describe your task, like 'Write an Instagram caption for a skincare brand'..."></textarea>
+      <button onclick="alert('Prompt uses exceeded. Please upgrade.')">Generate</button>
+      <div class="ads-box">Ad: Try the new AI Video Generator by AdVisual.ai – it's free!</div>
+    </div><h2>Plans & Pricing</h2>
+<div class="plans">
+  <div class="plan">
+    <h3>Free Plan</h3>
+    <ul>
+      <li>2 prompt generations per day</li>
+      <li>Minimal ads</li>
+      <li>No login required</li>
+    </ul>
+  </div>
+  <div class="plan">
+    <h3>Pro Plan – $5/month</h3>
+    <ul>
+      <li>100 prompts/day</li>
+      <li>No ads</li>
+      <li>Early access to new features</li>
+      <li><a href="https://www.paypal.com" target="_blank">Subscribe via PayPal</a></li>
+    </ul>
+  </div>
+  <div class="plan">
+    <h3>Elite Plan – $15/month</h3>
+    <ul>
+      <li>Unlimited prompt generation</li>
+      <li>Premium prompt templates</li>
+      <li>Priority support</li>
+      <li><a href="https://www.paypal.com" target="_blank">Subscribe via PayPal</a></li>
+    </ul>
+  </div>
+</div>
+
+  </div>  <div class="footer">
+    &copy; 2025 PromptSuite.ai. All rights reserved.
+  </div>
+</body>
+</html>
