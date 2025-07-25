@@ -1,145 +1,117 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PromptSuite – Your AI Prompt Toolkit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PromptSuite.ai – Smarter Prompt Generation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0f0f0f;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1e1e2f);
       color: #ffffff;
+      padding: 2rem;
     }
 
     header {
-      padding: 2rem;
       text-align: center;
-      background: #1a1a1a;
+      padding: 3rem 1rem 2rem;
     }
 
     header h1 {
       font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-      color: #00ffe1;
+      font-weight: 800;
     }
 
     header p {
       font-size: 1.2rem;
-      color: #bbbbbb;
+      margin-top: 1rem;
+      color: #aaa;
     }
 
-    main {
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
       padding: 2rem;
-      max-width: 700px;
-      margin: auto;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px);
     }
 
     .prompt-box {
-      background: #1e1e1e;
-      padding: 2rem;
+      margin-top: 2rem;
+      background: #ffffff10;
+      padding: 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      margin-bottom: 3rem;
+      border: 1px solid #ffffff20;
     }
 
     .prompt-box h2 {
-      margin-top: 0;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+      font-weight: 600;
     }
 
-    textarea {
+    .prompt-box textarea {
       width: 100%;
-      height: 100px;
+      height: 120px;
       border: none;
-      border-radius: 8px;
+      border-radius: 10px;
       padding: 1rem;
+      background: #1e1e2f;
+      color: white;
       font-size: 1rem;
       resize: vertical;
     }
 
-    button {
+    .prompt-box button {
       margin-top: 1rem;
-      padding: 0.8rem 2rem;
-      font-size: 1rem;
-      background: #00ffe1;
+      padding: 0.8rem 1.5rem;
+      background: #4f46e5;
       border: none;
       border-radius: 8px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
       cursor: pointer;
-      color: #000;
+      transition: background 0.3s ease;
     }
 
-    .pricing {
+    .prompt-box button:hover {
+      background: #3730a3;
+    }
+
+    footer {
       text-align: center;
-    }
-
-    .plan {
-      background: #1e1e1e;
-      margin: 1rem;
-      padding: 1.5rem;
-      border-radius: 10px;
-      display: inline-block;
-      width: 280px;
-      vertical-align: top;
-    }
-
-    .plan h3 {
-      margin-top: 0;
-      color: #00ffe1;
-    }
-
-    .plan p {
-      color: #cccccc;
-    }
-
-    .footer {
-      margin-top: 3rem;
-      text-align: center;
+      margin-top: 4rem;
       font-size: 0.9rem;
       color: #777;
-      padding-bottom: 2rem;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>PromptSuite</h1>
-    <p>Powerful AI prompt toolkit with smart generation and pro plans</p>
+    <h1>PromptSuite.ai</h1>
+    <p>Smarter, faster, and more effective AI prompt generation — powered by GPT.</p>
   </header>
 
-  <main>
+  <div class="container">
     <div class="prompt-box">
-      <h2>Enter your idea or goal:</h2>
-      <textarea placeholder="e.g., Write me a viral Instagram hook for productivity..."></textarea>
+      <h2>Try a prompt idea:</h2>
+      <textarea placeholder="Describe your task or idea..."></textarea>
       <button>Generate Prompt</button>
     </div>
-
-    <div class="pricing">
-      <h2>Pricing Plans</h2>
-
-      <div class="plan">
-        <h3>Free</h3>
-        <p>• 2 uses/day<br>• Ads supported<br>• Basic output</p>
-        <button>Use Now</button>
-      </div>
-
-      <div class="plan">
-        <h3>Pro</h3>
-        <p>• 50 uses/day<br>• No ads<br>• Priority quality<br>• ₹199/mo</p>
-        <button>Subscribe</button>
-      </div>
-
-      <div class="plan">
-        <h3>Elite</h3>
-        <p>• Unlimited access<br>• Advanced tools<br>• Commercial license<br>• ₹499/mo</p>
-        <button>Subscribe</button>
-      </div>
-    </div>
-  </main>
-
-  <div class="footer">
-    &copy; 2025 PromptSuite.ai — Built for creators. Powered by OpenAI.
   </div>
 
+  <footer>
+    © 2025 PromptSuite.ai — All rights reserved.
+  </footer>
 </body>
-</html>     
+</html>
