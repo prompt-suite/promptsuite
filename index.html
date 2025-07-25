@@ -1,126 +1,145 @@
-<!DOCTYPE html><html lang="en">
+ <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PromptSuite.ai – Smarter Prompt Generation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PromptSuite – Your AI Prompt Toolkit</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-      color: #212529;
+      background-color: #0f0f0f;
+      color: #ffffff;
     }
+
     header {
-      background-color: #4f46e5;
-      color: white;
       padding: 2rem;
       text-align: center;
+      background: #1a1a1a;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2rem;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe1;
     }
-    .container {
+
+    header p {
+      font-size: 1.2rem;
+      color: #bbbbbb;
+    }
+
+    main {
       padding: 2rem;
-      max-width: 800px;
+      max-width: 700px;
       margin: auto;
     }
+
     .prompt-box {
-      background: white;
-      padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
+      background: #1e1e1e;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-bottom: 3rem;
     }
-    .prompt-box textarea {
+
+    .prompt-box h2 {
+      margin-top: 0;
+    }
+
+    textarea {
       width: 100%;
-      padding: 1rem;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      resize: vertical;
-      min-height: 100px;
-    }
-    button {
-      background: #4f46e5;
-      color: white;
-      padding: 0.75rem 1.5rem;
+      height: 100px;
       border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-top: 1rem;
-    }
-    .plans {
-      display: grid;
-      gap: 1.5rem;
-    }
-    .plan {
-      background: white;
+      border-radius: 8px;
       padding: 1rem;
-      border-radius: 10px;
-      box-shadow: 0 0 8px rgba(0,0,0,0.08);
+      font-size: 1rem;
+      resize: vertical;
     }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      background: #00ffe1;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      color: #000;
+    }
+
+    .pricing {
+      text-align: center;
+    }
+
+    .plan {
+      background: #1e1e1e;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      display: inline-block;
+      width: 280px;
+      vertical-align: top;
+    }
+
     .plan h3 {
       margin-top: 0;
-      color: #4f46e5;
+      color: #00ffe1;
     }
+
+    .plan p {
+      color: #cccccc;
+    }
+
     .footer {
+      margin-top: 3rem;
       text-align: center;
-      padding: 2rem;
       font-size: 0.9rem;
       color: #777;
-    }
-    .ads-box {
-      background: #fcefc7;
-      padding: 1rem;
-      border-radius: 8px;
-      text-align: center;
-      margin-top: 1rem;
-      font-size: 0.9rem;
+      padding-bottom: 2rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>PromptSuite.ai</h1>
-    <p>Your intelligent prompt generation toolkit</p>
-  </header>  <div class="container">
-    <div class="prompt-box">
-      <h2>Generate a Prompt</h2>
-      <textarea placeholder="Describe your task, like 'Write an Instagram caption for a skincare brand'..."></textarea>
-      <button onclick="alert('Prompt uses exceeded. Please upgrade.')">Generate</button>
-      <div class="ads-box">Ad: Try the new AI Video Generator by AdVisual.ai – it's free!</div>
-    </div><h2>Plans & Pricing</h2>
-<div class="plans">
-  <div class="plan">
-    <h3>Free Plan</h3>
-    <ul>
-      <li>2 prompt generations per day</li>
-      <li>Minimal ads</li>
-      <li>No login required</li>
-    </ul>
-  </div>
-  <div class="plan">
-    <h3>Pro Plan – $5/month</h3>
-    <ul>
-      <li>100 prompts/day</li>
-      <li>No ads</li>
-      <li>Early access to new features</li>
-      <li><a href="https://www.paypal.com" target="_blank">Subscribe via PayPal</a></li>
-    </ul>
-  </div>
-  <div class="plan">
-    <h3>Elite Plan – $15/month</h3>
-    <ul>
-      <li>Unlimited prompt generation</li>
-      <li>Premium prompt templates</li>
-      <li>Priority support</li>
-      <li><a href="https://www.paypal.com" target="_blank">Subscribe via PayPal</a></li>
-    </ul>
-  </div>
-</div>
 
-  </div>  <div class="footer">
-    &copy; 2025 PromptSuite.ai. All rights reserved.
+  <header>
+    <h1>PromptSuite</h1>
+    <p>Powerful AI prompt toolkit with smart generation and pro plans</p>
+  </header>
+
+  <main>
+    <div class="prompt-box">
+      <h2>Enter your idea or goal:</h2>
+      <textarea placeholder="e.g., Write me a viral Instagram hook for productivity..."></textarea>
+      <button>Generate Prompt</button>
+    </div>
+
+    <div class="pricing">
+      <h2>Pricing Plans</h2>
+
+      <div class="plan">
+        <h3>Free</h3>
+        <p>• 2 uses/day<br>• Ads supported<br>• Basic output</p>
+        <button>Use Now</button>
+      </div>
+
+      <div class="plan">
+        <h3>Pro</h3>
+        <p>• 50 uses/day<br>• No ads<br>• Priority quality<br>• ₹199/mo</p>
+        <button>Subscribe</button>
+      </div>
+
+      <div class="plan">
+        <h3>Elite</h3>
+        <p>• Unlimited access<br>• Advanced tools<br>• Commercial license<br>• ₹499/mo</p>
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </main>
+
+  <div class="footer">
+    &copy; 2025 PromptSuite.ai — Built for creators. Powered by OpenAI.
   </div>
+
 </body>
-</html>
+</html>     
